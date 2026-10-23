@@ -55,10 +55,11 @@ is silence. (In an earlier pre-fix run, the fallback path logged PAPER trade
 
 ## What I learned
 
-> ✍️ WRITE 2–4 HONEST LINES IN YOUR OWN WORDS. Judging weights writing
-> quality heavily — say what surprised you, what broke, what you'd do
-> differently. Example angles: the kill-switch fired more than you expected;
-> Laya's pick vs your gut; why "doing nothing" is a feature.
+I learned that building a bot is easy, but teaching it when NOT to trade is the real work — my two gates said no more often than yes, and that felt right.
+
+The biggest surprise came in my first real run: AI #1 was 85% confident, but Laya gave only 12%, so no trade happened. Two AIs can look at the same data and completely disagree.
+
+I also learned to keep learning safe — paper mode means I can test every idea without risking a single rupee.
 
 ## What's next
 
@@ -68,7 +69,7 @@ is silence. (In an earlier pre-fix run, the fallback path logged PAPER trade
 
 ## Repo
 
-> 🔗 PASTE YOUR GITHUB REPO LINK HERE
+🔗 https://github.com/rohit-8a/steadytrade-ai
 
 ---
 
