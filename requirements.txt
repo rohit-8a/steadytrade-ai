@@ -1,0 +1,3 @@
+requests>=2.31
+PyYAML>=6.0
+# Laya (AI #2) runs in its own venv via consult.py — see config.yaml.

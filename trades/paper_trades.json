@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2026-10-21T09:30:34.156187+00:00",
+    "mode": "paper",
+    "symbol": "BTC/USD",
+    "direction": "long",
+    "entry": 83438.75,
+    "stop_loss": 82982.74,
+    "take_profit": 84806.78,
+    "rr": 3.0,
+    "ai1_confidence": 85.5,
+    "ai2_confidence": 62.5,
+    "ai2_source": "fallback",
+    "result": "open",
+    "id": 1
+  }
+]

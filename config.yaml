@@ -1,0 +1,17 @@
+# SteadyTrade AI — configuration
+# mode MUST stay "paper": this project never places real orders.
+mode: "paper"
+
+symbol: "BTC/USD"
+timeframe: "1h"
+candles: 48                # recent 1h candles AI #1 will analyse
+
+ai1_min_confidence: 60     # AI #1 gate: below this, trade is declined, full stop
+ai2_min_confidence: 60     # AI #2 gate: below this, no trade is placed
+setups_per_signal: 3       # risk-reward setups AI #1 suggests (RR 1:1.5, 1:2, 1:3)
+
+data_source: "bitstamp"    # public OHLC API, no key required
+
+# AI #2 engine: Laya open-weight decision model (local install)
+laya_python: "/home/hatch/workspace/laya/.venv/bin/python"
+laya_consult: "/home/hatch/workspace/laya/consult.py"
